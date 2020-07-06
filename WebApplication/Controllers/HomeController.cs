@@ -8,9 +8,16 @@ namespace WebApplication.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly ServiceReferenceWebApplication.Service1Client client;
+
+        public HomeController()
+        {
+            client = new ServiceReferenceWebApplication.Service1Client();
+        }
         public ActionResult Index()
         {
-            return View();
+            var orders = client.GetOrders();
+            return View(orders);
         }
 
         public ActionResult About()

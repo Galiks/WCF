@@ -46,5 +46,10 @@ namespace WCF
         {
             return orderLogic.GetOrders().ToList();
         }
+
+        public Order GetOrderById(int id)
+        {
+            return orderLogic.GetOrderById(id);
+        }
     }
 }

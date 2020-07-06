@@ -11,8 +11,10 @@
 namespace WebApplication.ServiceReferenceWebApplication {
     using System.Runtime.Serialization;
     using System;
-    
-    
+    using System.Linq;
+    using System.Collections.Generic;
+    using WCF.Models;
+
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
     [System.Runtime.Serialization.DataContractAttribute(Name="Order", Namespace="http://schemas.datacontract.org/2004/07/WCF.Models")]
@@ -140,10 +142,10 @@ namespace WebApplication.ServiceReferenceWebApplication {
     public interface IService1 {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetOrders", ReplyAction="http://tempuri.org/IService1/GetOrdersResponse")]
-        WebApplication.ServiceReferenceWebApplication.Order[] GetOrders();
+        List<WCF.Models.Order> GetOrders();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetOrders", ReplyAction="http://tempuri.org/IService1/GetOrdersResponse")]
-        System.Threading.Tasks.Task<WebApplication.ServiceReferenceWebApplication.Order[]> GetOrdersAsync();
+        System.Threading.Tasks.Task<List<WCF.Models.Order>> GetOrdersAsync();
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/GetData", ReplyAction="http://tempuri.org/IService1/GetDataResponse")]
         string GetData(string value);
@@ -191,11 +193,13 @@ namespace WebApplication.ServiceReferenceWebApplication {
                 base(binding, remoteAddress) {
         }
         
-        public WebApplication.ServiceReferenceWebApplication.Order[] GetOrders() {
-            return base.Channel.GetOrders();
+
+
+        public List<WCF.Models.Order> GetOrders() {
+            return base.Channel.GetOrders().ToList();
         }
         
-        public System.Threading.Tasks.Task<WebApplication.ServiceReferenceWebApplication.Order[]> GetOrdersAsync() {
+        public System.Threading.Tasks.Task<List<WCF.Models.Order>> GetOrdersAsync() {
             return base.Channel.GetOrdersAsync();
         }
         

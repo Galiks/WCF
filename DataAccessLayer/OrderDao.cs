@@ -63,7 +63,7 @@ namespace DataAccessLayer
                 var command = connection.CreateCommand();
 
                 //название
-                command.CommandText = "GetUserById";
+                command.CommandText = "GetOrdeById";
                 command.CommandType = CommandType.StoredProcedure;
 
                 command.Parameters.AddRange(new[]

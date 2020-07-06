@@ -11,6 +11,8 @@ namespace WCF
     public interface IService1
     {
         [OperationContract]
+        Order GetOrderById(int id);
+        [OperationContract]
         List<Order> GetOrders();
         [OperationContract]
         string GetData(string value);

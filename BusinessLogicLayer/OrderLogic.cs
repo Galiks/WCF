@@ -29,7 +29,15 @@ namespace BusinessLogicLayer
 
         public Order GetOrderById(int id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                return orderDao.GetOrderById(id);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                throw;
+            }
         }
 
         public IEnumerable<Order> GetOrders()
