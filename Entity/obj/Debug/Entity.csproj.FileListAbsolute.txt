@@ -10,3 +10,8 @@ E:\Programs\Projects Visual Studio\Entity\obj\Debug\Entity.csproj.CoreCompileInp
 E:\Programs\Projects Visual Studio\Entity\obj\Debug\Entiry2.dll
 E:\Programs\Projects Visual Studio\Entity\obj\Debug\Entiry2.pdb
 E:\Programs\Projects Visual Studio\Entity\obj\Debug\Entity.csprojAssemblyReference.cache
+E:\Programs\Projects Visual Studio\Client-Server\Entity\bin\Debug\Entiry2.dll
+E:\Programs\Projects Visual Studio\Client-Server\Entity\bin\Debug\Entiry2.pdb
+E:\Programs\Projects Visual Studio\Client-Server\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+E:\Programs\Projects Visual Studio\Client-Server\Entity\obj\Debug\Entiry2.dll
+E:\Programs\Projects Visual Studio\Client-Server\Entity\obj\Debug\Entiry2.pdb

@@ -5,15 +5,16 @@ namespace WindowsForms
 {
     public partial class Form1 : Form
     {
+        private readonly ServiceReferenceWindowsForms.Service1Client client;
         public Form1()
         {
             InitializeComponent();
+            client = new ServiceReferenceWindowsForms.Service1Client();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             label1.Text = "";
-            ServiceReference1.Service1Client client = new ServiceReference1.Service1Client();
 
             foreach (var item in client.GetOrders())
             {
