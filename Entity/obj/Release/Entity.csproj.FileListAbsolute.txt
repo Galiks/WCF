@@ -1,0 +1,5 @@
+E:\Programs\Projects Visual Studio\Entity\bin\Release\Entiry2.dll
+E:\Programs\Projects Visual Studio\Entity\bin\Release\Entiry2.pdb
+E:\Programs\Projects Visual Studio\Entity\obj\Release\Entity.csproj.CoreCompileInputs.cache
+E:\Programs\Projects Visual Studio\Entity\obj\Release\Entiry2.dll
+E:\Programs\Projects Visual Studio\Entity\obj\Release\Entiry2.pdb

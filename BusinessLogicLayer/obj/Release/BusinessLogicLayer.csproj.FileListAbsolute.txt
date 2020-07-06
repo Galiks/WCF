@@ -1,0 +1,13 @@
+E:\Programs\Projects Visual Studio\BusinessLogicLayer\bin\Release\BusinessLogicLayer2.dll
+E:\Programs\Projects Visual Studio\BusinessLogicLayer\bin\Release\BusinessLogicLayer2.pdb
+E:\Programs\Projects Visual Studio\BusinessLogicLayer\bin\Release\DataAccessLayer2.dll
+E:\Programs\Projects Visual Studio\BusinessLogicLayer\bin\Release\Entiry2.dll
+E:\Programs\Projects Visual Studio\BusinessLogicLayer\bin\Release\Ninject.dll
+E:\Programs\Projects Visual Studio\BusinessLogicLayer\bin\Release\DataAccessLayer2.pdb
+E:\Programs\Projects Visual Studio\BusinessLogicLayer\bin\Release\Entiry2.pdb
+E:\Programs\Projects Visual Studio\BusinessLogicLayer\bin\Release\Ninject.xml
+E:\Programs\Projects Visual Studio\BusinessLogicLayer\obj\Release\BusinessLogicLayer.csprojAssemblyReference.cache
+E:\Programs\Projects Visual Studio\BusinessLogicLayer\obj\Release\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+E:\Programs\Projects Visual Studio\BusinessLogicLayer\obj\Release\BusinessLogicLayer.csproj.CopyComplete
+E:\Programs\Projects Visual Studio\BusinessLogicLayer\obj\Release\BusinessLogicLayer2.dll
+E:\Programs\Projects Visual Studio\BusinessLogicLayer\obj\Release\BusinessLogicLayer2.pdb
